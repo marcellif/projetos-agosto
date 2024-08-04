@@ -5,6 +5,6 @@ console.log(listaEstudantes.length);
 
 const sala1 = listaEstudantes.slice(0,listaEstudantes.length/2);
 
-const sala2 = listaEstudantes.slice(listaEstudantes.length/2, listaEstudantes.length);
+const sala2 = listaEstudantes.slice(listaEstudantes.length/2,);
 
 console.log(sala1.length, sala2.length);
