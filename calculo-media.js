@@ -1,6 +1,16 @@
-let notas = [ 10, 8.5, 9, 7.5];
+const notasAluno1 = [ 10, 8.5, 9, 7.5];
+const notasAluno2 = [9, 5.8, 7, 8];
 
-let media = (notas[1] + notas [2] + notas[3]+notas[4])/ notas.length;
+
+function media (array){
+    let soma = 0;
+    for (i = 0; i < array.length; i++){
+        soma += array[i];
+    }
+    return soma/array.length;
+ }
 
 
-console.log (`a média de notas do aluno é ${media}`);
+console.log (`a média de notas do aluno 1 é ${media(notasAluno1)}`);
+
+console.log (`a média de notas do aluno 2 é ${media(notasAluno2)}`);
