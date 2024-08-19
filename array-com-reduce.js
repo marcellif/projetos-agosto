@@ -4,9 +4,7 @@ const salaPython = [7, 3.5, 8, 9.5];
 
 
 function calcula (array){
-    const soma = array.reduce((acumulado, nota) =>{
-        return acumulado + nota;
-    },0);
+    const soma = array.reduce((acumulado, nota) => acumulado + nota,0);
 
     const media = soma / array.length;
     return console.log(media);
